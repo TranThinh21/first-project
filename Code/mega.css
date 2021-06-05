@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+* {
+ padding: 0;
+ margin: 0;
+ text-decoration: none;
+ list-style: none;
+ box-sizing: border-box;
+}
+body{
+  font-family: RocknRoll One; 
+}
+nav{
+  font-family: RocknRoll One; 
+  background:black;
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  display: flex;
+}
+label.logo{
+ color: white;
+ font-size: 27px;
+ line-height: 80px;
+ padding: 0 100px;
+ font-weight: bold;
+ 
+}
+nav ul{
+ 
+  margin-right:20px ;
+}
+nav ul li{
+ display: inline-block;
+ line-height: 80px;
+ margin: 0 5px;
+ 
+}
+nav ul li a{
+  color: white;
+  padding: 7px 13px;
+  border: 5px;
+  font-size: 17px;
+  text-transform: uppercase;
+  
+}
+a.active,a:hover{
+  background: #1b9bff;
+  transition: .6s;
+}
+.mySlides {
+  display: none;
+  height: 600px;
+  width: 100%;
+}
+.lowerbox{
+  width: 100%;
+  background: black;
+  display: flex;
+  padding: 50px;
+  box-sizing: border-box;
+  flex-direction: row;
+}
+
+.insideL{
+  flex: 1;
+  background:rgba(34, 31, 31);
+  padding: 30px;
+  color: white;
+  
+}
+.Our{
+  padding: 5px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+.des{
+  font-size: 16px;
+  text-align: start;
+}
+.insideR{
+  flex: 1;
+  background: rgba(34, 31, 31);
+  padding: 30px;
+  font-size: 13px;
+}
+.need{
+  margin-top: 10px;
+  font-size: 15px;
+}.an{
+  margin-left: 20px;
+  margin-top: 10px;
+  font-size: 15px;
+}
+.and {
+  list-style-type: square;
+}
+.big{
+  margin-top: 20px;
+  padding:20px;
+}
+.head{
+  display: block;
+	text-align: center;
+	height: 40px;
+	line-height: 40px;
+	background-color: tomato;
+	color: white;
+	text-decoration: none;
+}
+@media screen and (max-width :760px){
+  .lowerbox{
+    flex-direction: column-reverse
+  }
+}
+a{
+  text-decoration: none;
+  color:white
+}
+
+
